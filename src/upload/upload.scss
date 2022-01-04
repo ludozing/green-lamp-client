@@ -1,0 +1,27 @@
+#upload {
+    padding-top: 50px;
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        td {
+            border-collapse: collapse;
+            &:nth-child(1){
+                width: 20%;
+            }
+            padding: 20px;
+            border-bottom: 1px solid #ccc;
+            input {
+                width: 80%;
+            }
+            button {
+                width: 120px;
+                background-color: #333;
+                color: #fff;
+                margin-right: 20px;
+                border: none;
+                height: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+}
