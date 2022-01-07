@@ -30,3 +30,16 @@
         border-radius: 50%;
     }
 }
+.btn {
+    padding-top: 50px;
+    span {
+        margin: 20px 6px;
+        padding: 10px 20px;
+        background-color: rgb(85, 87, 255);
+        color: #fff;
+        border: 0;
+        outline: 0;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+}
