@@ -47,7 +47,7 @@ function MainPage(){
                                 <div className="product-card" key={product.id}>
                                     <Link to={`/products/${product.id}`}>
                                         <div>
-                                            <img className="product-img" src={product.imgUrl} alt="조명" />
+                                            <img className="product-img" src={`${API_URL}/${product.imgUrl}`} alt="조명" />
                                         </div>
                                         <div className="product-contents">
                                             <span>{product.name}</span>
