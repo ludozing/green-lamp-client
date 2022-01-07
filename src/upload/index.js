@@ -1,5 +1,5 @@
 import { API_URL } from "../config/constants";
-import "antd/dist/antd.css";
+import "antd/dist/antd.min.css";
 import "./upload.scss";
 import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";

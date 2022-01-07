@@ -1,5 +1,5 @@
 import {API_URL} from "../config/constants";
-import "antd/dist/antd.css";
+import "antd/dist/antd.min.css";
 import "./main.scss";
 import axios from "axios";
 import { useState, useEffect } from "react";
